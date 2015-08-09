@@ -72,7 +72,8 @@ sub Main {
      &Help;
     }elsif ($Input == 4) {
      &Exit;
-    }
+    }else{
+     print "That is an unrecongnized command. Try '3' for help\n";
    }
    
    
