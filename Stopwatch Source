@@ -77,4 +77,5 @@ sub Main {
    
    
 print "Ctrl + C for windows or Cmd + C for Apple Machines to quit\n";
+system("pause");
 &Main;
