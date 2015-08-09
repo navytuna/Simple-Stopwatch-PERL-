@@ -74,6 +74,7 @@ sub Main {
      &Exit;
     }else{
      print "That is an unrecongnized command. Try '3' for help\n";
+     system("pause");
    }
   }
    
