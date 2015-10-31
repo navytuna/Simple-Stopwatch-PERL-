@@ -39,7 +39,7 @@
  print "\n";
  print "You should have received a copy of the GNU General Public License\n";
  print "along with this program.  If not, see <http://www.gnu.org/licenses/>.\n";
- system("Pause");
+ system("Pause > nul");
  &Main;
 }
 
@@ -50,7 +50,7 @@ sub Help {
  print "2 = Disclaimer\n";
  print "3 = Help\n";
  print "4 = Exit\n";
- system("pause");
+ system("pause > nul");
  &Main;
 }
 
@@ -72,13 +72,13 @@ sub Main {
      &Help;
     }elsif ($Input == 4) {
      &Exit;
-    }else{
+    } else {
      print "That is an unrecongnized command. Try '3' for help\n";
-     system("pause");
+     system("pause > nul");
    }
   }
    
    
 print "Ctrl + C for windows or Cmd + C for Apple Machines to quit\n";
-system("pause");
+system("pause > nul");
 &Main;
